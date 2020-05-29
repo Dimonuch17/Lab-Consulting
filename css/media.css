@@ -1,0 +1,326 @@
+@media screen and (max-width: 1200px) {
+	.logo img,
+	.lab__item {
+		width: 100%;
+	}
+	
+	.miss__item {
+		margin-bottom: 40px;
+	}
+
+	.lab__title {
+		line-height: 0.5;
+		padding-top: 18px;
+	}
+
+	.footer__btn{
+		width: 100%;
+		margin-left: 0;
+		font-size: 12px;
+	}
+
+	.nav__menu {
+		padding-top: 0;
+		margin-left: 0;
+	}
+
+	.nav__btn {
+		width: 100%;
+		font-size: 12px;
+		margin-top: 0;
+	}
+
+	.footer__btn {
+		margin-top: 60px;
+		-ms-align-items: center;
+		align-items: center;
+	}
+
+	.contact-block {
+		right: 	150px;
+	}
+
+}
+
+
+@media screen and (max-width: 992px) {
+	.nav__btn {
+		display: block;
+		margin-left: auto;
+		width: 156px;
+		margin-top: 13px;
+	}
+
+	.menu-open {
+		display: block;
+		width: 100%;
+	}
+
+	.logo__footer {
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	.miss__sed p,
+	.miss__eos p {
+		width: auto;
+	}
+
+	.mission {
+		background: #58647a url(..//img/missin_bg.jpg) no-repeat center center;
+	}
+
+	.sub__menu {
+		margin-top: 40px;
+		justify-content: center;
+	}
+
+	.subtitle-list {
+		justify-content: center;
+	}
+
+	.advan__text {
+		margin-bottom: 20px;
+	}
+
+	.advan-border:after {
+		width: 100%;
+	}
+
+	.advan__img  {
+		margin-top: 30px;
+		margin-left: 25px;
+	}
+
+	.services__menu {
+		justify-content: center;
+		margin-top: 40px;
+	}
+
+	.legal__box {
+		display: none;
+	}
+
+	.legal__img {
+		margin-left: 0;
+	}
+
+	.consultation {
+		width: 100%;
+	}
+
+	.consultation_img {
+		position: absolute;
+		top: 85px;
+		left: 80%;
+	}
+
+	.navigation__link_short {
+		width: 100%;
+	}
+
+	.triangle-left {
+		display: none;	
+	}
+
+	.contact-block {
+		position: relative;	
+		top: 0;	
+		left: 0;	
+		right: 0;	 
+		width: auto;	
+		margin: 20px;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.subtitle {
+		padding-bottom: 30px;
+	}
+
+	.sub__menu {
+		text-align: center;
+		flex-direction: column;
+		margin-top: 10px;
+	}
+
+	.sub__item {
+		margin-bottom: 23px;
+	}
+
+	.logo__footer {
+		width: auto;
+		display: block;
+		margin: 40px auto 0;
+	}
+
+	.info__block {
+		text-align: center;
+	}
+
+	.footer__text p {
+		text-align: center;
+	}
+
+	.footer__text {
+		margin: 0 auto;
+		width: 205px;
+		margin-top: 35px;
+		margin-bottom: 0px;
+	}
+
+	.legal__img img {
+		width: 100%;
+	}
+
+	.services__menu {
+		text-align: center;
+		flex-direction: column;
+	}
+
+	.services__item {
+		margin-bottom: 10px;
+	}
+
+	.consultation_img {
+		position: absolute;
+		top: 85px;
+		left: 73%;
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+	h1 {
+		font-size: 38px;
+	}
+
+	.logo {
+		width: 290px;
+	}
+
+	.offer__text {
+		font-size: 22px;
+	}
+
+	.offer {
+		width: 100%;
+	}
+
+	.miss__wrap {
+		flex-direction: column;
+	}
+
+	.lab__title {
+		line-height: 1.3;
+	}
+
+	.mission {
+		background: #58647a;
+	}
+
+	.advan__img {
+		margin-top: 0;
+		margin-left: 40%;
+		margin-bottom: 40px;
+	}
+
+	.advan-item__title,
+	.advan-item__text {
+		text-align: center;
+	}
+
+	.sub__item {
+		margin-top: 3px;
+	}
+
+	.sub__item {
+		margin-bottom: 20px;
+	}
+
+	.subtitle {
+		padding-bottom: 20px;
+	}
+
+	.sub__block {
+		margin-bottom: 20px;
+	}
+
+	.equip__picture {
+		margin-bottom: 20px;
+	}
+
+	.services {
+		padding-top: 54px;
+		padding-bottom: 55px;
+	}
+
+	.legal__img {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+
+	.legal__img img {
+		width: 160px;
+	}
+
+	.consultation__phone {
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.consultation {
+		height: 250px;
+	}
+
+	.consultation_img {
+		display: none;
+	}
+
+	.contact__name {
+		flex-direction: column;	
+	}
+
+	.cont__titile {
+		text-align: center;	
+		margin-bottom: 	10px;
+	}
+
+	.offer__soc_contact {
+		margin: 	0 auto;
+	}
+
+	.addres  {
+		flex-direction: column;	
+	}
+
+	.addres__desc {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.contact__name  {
+		padding-bottom: 	10px;
+		margin-bottom: 	10px;
+	}
+
+	.contact__mail {
+		font-size: 15px;	
+	}
+
+	.contact-block {
+		height: 500px;	
+	}
+
+	.addres__contact {
+		margin 0 auto;
+	}
+
+	.addres__text {
+		width: 100%;	
+		margin-top: 20px;
+	}
+
+}
